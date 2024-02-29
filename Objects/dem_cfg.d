@@ -1,0 +1,14 @@
+.\objects\dem_cfg.o: ComStack\CanInterface\Dem\Dem_Cfg.c
+.\objects\dem_cfg.o: ComStack\CanInterface\Dem\DEM_Cfg.h
+.\objects\dem_cfg.o: .\ComStack\Can_Gen\Dcm\Dcm_Cfg.h
+.\objects\dem_cfg.o: .\ComStack\Dcm\Dcm_Types.h
+.\objects\dem_cfg.o: .\ComStack\Common\Platform_Types.h
+.\objects\dem_cfg.o: .\ComStack\Common\ComStack_Types.h
+.\objects\dem_cfg.o: .\ComStack\Common\Std_Types.h
+.\objects\dem_cfg.o: .\ComStack\Common\Compiler.h
+.\objects\dem_cfg.o: .\ComStack\Common\Compiler_Cfg.h
+.\objects\dem_cfg.o: .\ComStack\PDUR\PduR_Dcm.h
+.\objects\dem_cfg.o: .\ComStack\PDUR\PduR_Types.h
+.\objects\dem_cfg.o: ComStack\CanInterface\Dem\Dem_types.h
+.\objects\dem_cfg.o: D:\2-tool\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dem_cfg.o: D:\2-tool\keil5\ARM\ARMCC\Bin\..\include\stdbool.h

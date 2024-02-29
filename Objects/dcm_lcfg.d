@@ -1,0 +1,10 @@
+.\objects\dcm_lcfg.o: ComStack\Can_Gen\Dcm\Dcm_Lcfg.c
+.\objects\dcm_lcfg.o: .\ComStack\Dcm\Dcm_Types.h
+.\objects\dcm_lcfg.o: .\ComStack\Common\Platform_Types.h
+.\objects\dcm_lcfg.o: .\ComStack\Common\ComStack_Types.h
+.\objects\dcm_lcfg.o: .\ComStack\Common\Std_Types.h
+.\objects\dcm_lcfg.o: .\ComStack\Common\Compiler.h
+.\objects\dcm_lcfg.o: .\ComStack\Common\Compiler_Cfg.h
+.\objects\dcm_lcfg.o: ComStack\Can_Gen\Dcm\Dcm_Cfg.h
+.\objects\dcm_lcfg.o: .\ComStack\PDUR\PduR_Dcm.h
+.\objects\dcm_lcfg.o: .\ComStack\PDUR\PduR_Types.h

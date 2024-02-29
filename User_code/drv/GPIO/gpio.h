@@ -1,0 +1,69 @@
+#ifndef __GPIO_H
+#define __GPIO_H
+
+
+#include "fm33lg0xx_fl_conf.h"
+
+
+
+
+
+#define POWER_12V_ENABLE_GPIO   GPIOA
+#define SW_PREV_SONG_GPIO       GPIOA
+#define CAN_RXD_GPIO            GPIOA
+#define CAN_TXD_GPIO            GPIOA
+#define CAN_STB_GPIO            GPIOA
+#define SW_VOICE_GPIO           GPIOA
+#define SW_MUTE_GPIO            GPIOA
+#define SW_NEXT_SONG_GPIO       GPIOA
+#define SW_MODE_GPIO            GPIOB
+#define BACKLIGHT_RED_GPIO      GPIOB
+#define BACKLIGHT_GREEN_GPIO    GPIOB
+#define BACKLIGHT_WHITE_GPIO    GPIOB
+#define BACKLIGHT_PWM_GPIO      GPIOB
+#define POWER_5V_ENABLE_GPIO    GPIOB
+#define RIGHT_SIDE_ENCODER_B_GPIO          GPIOB
+#define RIGHT_SIDE_ENCODER_A_GPIO          GPIOB
+#define HEATING_OPEN_DETECT_GPIO  GPIOC
+#define LEFT_SIDE_SW_ADC          GPIOC
+#define POWER_12V_ADC             GPIOC
+
+#define LEFT_SIDE_ENCODER_B_GPIO          GPIOD
+#define LEFT_SIDE_ENCODER_A_GPIO          GPIOD
+
+#define LDO_ENABLE_GPIO          GPIOC 
+#define WHEEL_HEAT_OUTPUT_GPIO   GPIOA
+#define WHEEL_HEAT_BACK_GPIO     GPIOC
+#define WHEEL_HEAT_SHORT_DETECT_GPIO  GPIOC
+
+
+#define POWER_12V_ENABLE_PIN   FL_GPIO_PIN_15
+#define SW_PREV_SONG_PIN       FL_GPIO_PIN_0
+#define CAN_RXD_PIN            FL_GPIO_PIN_6
+#define CAN_TXD_PIN            FL_GPIO_PIN_7
+#define CAN_STB_PIN            FL_GPIO_PIN_8
+#define SW_VOICE_PIN           FL_GPIO_PIN_9
+#define SW_MUTE_PIN            FL_GPIO_PIN_11
+#define SW_NEXT_SONG_PIN       FL_GPIO_PIN_12
+#define SW_MODE_PIN            FL_GPIO_PIN_2
+#define BACKLIGHT_RED_PIN      FL_GPIO_PIN_4
+#define BACKLIGHT_GREEN_PIN    FL_GPIO_PIN_5
+#define BACKLIGHT_WHITE_PIN    FL_GPIO_PIN_6
+#define BACKLIGHT_PWM_PIN      FL_GPIO_PIN_7
+#define POWER_5V_ENABLE_PIN    FL_GPIO_PIN_9
+#define RIGHT_SIDE_ENCODER_B_PIN          FL_GPIO_PIN_12
+#define RIGHT_SIDE_ENCODER_A_PIN          FL_GPIO_PIN_10
+#define HEATING_OPEN_DETECT_PIN  FL_GPIO_PIN_7
+#define LEFT_SIDE_SW_ADC_PIN          FL_GPIO_PIN_9
+#define POWER_12V_ADC_PIN             FL_GPIO_PIN_10
+
+#define LEFT_SIDE_ENCODER_B_PIN          FL_GPIO_PIN_0
+#define LEFT_SIDE_ENCODER_A_PIN          FL_GPIO_PIN_1
+
+#define LDO_ENABLE_PIN          FL_GPIO_PIN_5 
+#define WHEEL_HEAT_OUTPUT_PIN   FL_GPIO_PIN_1
+#define WHEEL_HEAT_BACK_PIN     FL_GPIO_PIN_8
+#define WHEEL_HEAT_SHORT_DETECT_PIN  FL_GPIO_PIN_7
+
+void GPIO_Init(void);
+#endif

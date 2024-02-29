@@ -1,0 +1,15 @@
+.\objects\dcm_cfg.o: ComStack\Can_Gen\Dcm\Dcm_Cfg.c
+.\objects\dcm_cfg.o: ComStack\Can_Gen\Dcm\Dcm_Cfg.h
+.\objects\dcm_cfg.o: .\ComStack\Dcm\Dcm_Types.h
+.\objects\dcm_cfg.o: .\ComStack\Common\Platform_Types.h
+.\objects\dcm_cfg.o: .\ComStack\Common\ComStack_Types.h
+.\objects\dcm_cfg.o: .\ComStack\Common\Std_Types.h
+.\objects\dcm_cfg.o: .\ComStack\Common\Compiler.h
+.\objects\dcm_cfg.o: .\ComStack\Common\Compiler_Cfg.h
+.\objects\dcm_cfg.o: .\ComStack\PDUR\PduR_Dcm.h
+.\objects\dcm_cfg.o: .\ComStack\PDUR\PduR_Types.h
+.\objects\dcm_cfg.o: .\ComStack\Dcm\Dcm.h
+.\objects\dcm_cfg.o: .\ComStack\Common\MemMap.h
+.\objects\dcm_cfg.o: .\ComStack\Common\MemMap.h
+.\objects\dcm_cfg.o: .\ComStack\Common\MemMap.h
+.\objects\dcm_cfg.o: .\ComStack\Common\MemMap.h
